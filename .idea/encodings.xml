@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/heartlayout/src/main/java/tyrantgit/widget/AbstractPathAnimator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heartlayout/src/main/java/tyrantgit/widget/HeartLayout.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heartlayout/src/main/java/tyrantgit/widget/HeartView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heartlayout/src/main/java/tyrantgit/widget/PathAnimator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heartlayout/src/main/res/drawable/heart.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heartlayout/src/main/res/drawable/heart_border.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heartlayout/src/main/res/values/dimens.xml" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
