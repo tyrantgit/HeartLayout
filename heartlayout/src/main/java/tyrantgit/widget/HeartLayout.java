@@ -56,4 +56,11 @@ public class HeartLayout extends RelativeLayout {
         heartView.setColor(color);
         mAnimator.start(heartView, this);
     }
+
+    public void addHeart(int color, int heartResId, int heartBorderResId) {
+        HeartView heartView = new HeartView(getContext());
+        heartView.setColorAndDrawables(color, heartResId, heartBorderResId);
+        mAnimator.start(heartView, this);
+    }
+
 }
