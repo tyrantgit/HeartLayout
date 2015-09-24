@@ -8,7 +8,6 @@ import android.os.Looper;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
-import android.view.animation.AnimationSet;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.Transformation;
 
@@ -51,10 +50,8 @@ public class PathAnimator extends AbstractPathAnimator {
                 mCounter.incrementAndGet();
             }
         });
-        AnimationSet as = new AnimationSet(false);
-        as.addAnimation(anim);
-        as.setInterpolator(new LinearInterpolator());
-        child.startAnimation(as);
+        anim.setInterpolator(new LinearInterpolator());
+        child.startAnimation(anim);
     }
 
     static class FloatAnimation extends Animation {
