@@ -11,11 +11,12 @@ In your `build.gradle`:
 
 ```gradle
  dependencies {
-   compile 'tyrant:heartlayout:1.0.0'
+   compile 'tyrant:heartlayout:1.0.1'
  }
 ```
 
 ```java
 HeartLayout heartLayout = ...;
 heartLayout.addHeart(color);
+heartLayout.addHeart(color,heartResId,heartBorderResId);
 ```
