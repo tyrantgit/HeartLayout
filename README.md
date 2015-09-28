@@ -1,4 +1,5 @@
 [![Android Gems](http://www.android-gems.com/badge/tyrantgit/HeartLayout.svg?branch=master)](http://www.android-gems.com/lib/tyrantgit/HeartLayout)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-HeartLayout-brightgreen.svg?style=flat)](http://android-arsenal.com/details/3/2558)
 
 # HeartLayout
 periscope like heartlayout
